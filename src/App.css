@@ -1,0 +1,43 @@
+
+.logo{
+  float: left;
+  font-size: 20px;
+  color: white;
+}
+.logo img{
+  width: 50px;
+  margin-right:10px; 
+}
+
+#index{
+  width: 100%;
+}
+
+#index1,#index2{
+  flex: 1;
+}
+#pie1,#pie2,#pie3{
+  flex: 1;
+}
+
+#list p{
+  display: flex;
+  margin: 0;
+  padding:0;
+}
+#list p span{
+  border: 1px solid #ebebeb;
+  text-align: center;
+  flex: 1;
+  border-bottom: none;
+}
+
+#list p:last-child span{
+  border: 1px solid #ebebeb;
+  text-align: center;
+  flex: 1;
+  border-bottom: 1px solid #ebebeb;
+}
+#list{
+  display: none;
+}
